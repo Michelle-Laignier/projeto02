@@ -1,0 +1,99 @@
+:root {
+    --background-color: #2F2E41;
+    --green: #00BFA6;
+    --gray: #C2C2C2;
+    --white: #FFFFFF;
+    --opensans: 'Open Sans', sans-serif;
+    --jetbrainsmono: 'JetBrains Mono', monospace;
+}
+
+body {
+    background-color: var(--background-color);
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: var(--jetbrainsmono);
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 71px 100px;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+}
+
+nav ul a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: var(--green);
+}
+
+main {
+    display: flex;
+    gap: 77px;
+    justify-content: space-around;
+    margin-bottom: 157px;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    font-weight: 700;
+}
+
+main h1 span {
+    color: var(--green);
+}
+
+main p {
+    color: var(--gray);
+    font-family: var(--opensans);
+}
+
+main p span {
+    font-weight: 700;
+}
+
+#text {
+    color: var(--green);
+}
+
+footer {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+footer p a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: var(--green);
+}
+
+#line {
+    border-top: 1px solid var(--green);
+    margin-bottom: 27px;
+    width: 50%;
+}
+
+#padlock {
+    bottom: 46px;
+    left: 20px;
+    position: absolute;
+}
